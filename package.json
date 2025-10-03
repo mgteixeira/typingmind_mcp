@@ -1,0 +1,7 @@
+{
+  "name": "typingmind-mcp",
+  "private": true,
+  "scripts": {
+    "start": "PORT=${PORT:-8080} npx @typingmind/mcp \"$MCP_TOKEN\""
+  }
+}
