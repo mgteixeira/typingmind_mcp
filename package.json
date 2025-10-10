@@ -1,7 +1,8 @@
+// package.json
 {
-  "name": "typingmind-mcp",
-  "private": true,
-  "scripts": {
-    "start": "npx @typingmind/mcp \"$MCP_TOKEN\" --host 0.0.0.0 --port ${PORT:-8080}"
+  "name":"typingmind-mcp",
+  "private":true,
+  "scripts":{
+    "start":"npx @typingmind/mcp \"$MCP_TOKEN\" --host 0.0.0.0 --port ${PORT:-8080}"
   }
 }
